@@ -9,19 +9,21 @@
 </head>
 
 <body>
-  <div class="all">
+  <div id="all">
     <h1>To-Do List</h1>
-    <div class="main-box">
-        <span class="list">
-          <input type="text" class="input"><button>ADD</button>
-            <li>
-              <ul>Item 1</ul>    
-            </li>
-        </span>
+    <div id="main-box">
+        <form id="todoForm">
+          <input type="text" id="todoInput">
+          <button type="button" onclick="todoList()" id="inputField">Add</button>
+        </form>
     </div>
+    <br>
+    <li id="todoList"> 
+
+    </li>
 
  
   </div>
 </body>
-
+<script src="script.js"></script>
 </html>
