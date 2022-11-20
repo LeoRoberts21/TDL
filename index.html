@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>toDoList</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-  <div id="all">
-    <h1>To-Do List</h1>
-    <div id="main-box">
+  <body>
+    <div id="all">
+      <h1>Tasks</h1>
+
+      <div id="main-box">
         <form id="todoForm">
-          <input type="text" id="todoInput">
-          <button type="button" onclick="todoList()" id="inputField">Add</button>
+          <input type="text" id="todoInput" />
+          <button type="button" onclick="todoList()">ADD</button>
         </form>
+      </div>
+      <span class="guide">
+      <p>Click = cross out</p>
+      <p>Double click = remove</p>
+      </span>
+      <br/>
+      <li id="todoList"></li>
     </div>
-    <br>
-    <li id="todoList"> 
 
-    </li>
 
- 
-  </div>
-</body>
-<script src="script.js"></script>
+
+
+
+
+  </body>
+  <script src="script.js"></script>
 </html>
