@@ -1,5 +1,6 @@
 # TDL
-<img width="832" alt="Screenshot 2022-11-21 at 00 30 19" src="https://user-images.githubusercontent.com/100042123/202935364-bc0c294f-c221-4115-8d0e-4548b8d6fa4d.png">
+<img width="1098" alt="Screenshot 2022-11-21 at 00 31 46" src="https://user-images.githubusercontent.com/100042123/202935427-bfc77204-f577-4e97-82d4-14005675c3a2.png">
+
 
 A quick coding project. I haven't coded for about a month and wanted a simple JS project for me to refresh my memory.
 
